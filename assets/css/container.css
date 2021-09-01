@@ -1,0 +1,36 @@
+table {
+	width: 100%;
+	background-color: #f1f1f2;
+}
+table > thead > tr > th {
+	font-weight: 400;
+	color: #fff;
+	background-color: blue;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+table > tbody > tr > td {
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+table {
+	width: 100%;
+	background-color: #f1f1f2;
+}
+table > thead > tr > th {
+	font-weight: 400;
+	color: #fff;
+	background-color: blue;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+table > tbody > tr > td {
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.container {
+	height: 500px;
+	overflow: auto;
+}
+.fixedHeader {
+	position: sticky;
+	top: 0;
+}

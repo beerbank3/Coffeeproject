@@ -1,0 +1,40 @@
+create table login(
+id varchar(10),
+pass varchar(10)
+);
+insert into login values("admin","admin");
+create table Orderlist(
+num int auto_increment primary key,
+menu varchar(100),
+count int,
+price int,
+Ordercheck varchar(20),
+Ordertime timestamp
+);
+create table menu(
+num int auto_increment primary key,
+name varchar(100),
+ conten varchar(300),
+ price int);
+insert into menu value(0,"바닐라 크림 콜드 브루-Vanilla Cream Cold Brew","콜드  브루에  더해진  바닐라  크림으로  깔끔하면서  달콤한  콜드  브루를  새롭게  즐길  수  있는  음료입니다.",5000);
+insert into menu value(0,"아이스 돌체 라떼-Iced Dolce Latte","다른 커피 음료보다 더욱 깊은 커피의 맛과 향에 깔끔한 무지방 우유와 부드러운 돌체 시럽이 들어간 음료로 달콤하고 진한 커피 라떼 입니다.",5000);
+insert into menu value(0,"아이스 블론드 에스프레소 라떼-Iced Blonde Espresso Latte","음료 위에 올라간 에스프레소 휘핑 크림은 커피의 풍미를 더욱 높여주고, 시나몬 파우더와 함께 어우러지는 블론드 라떼를 즐길 수 있습니다.",5000);
+insert into menu value(0,"아이스 카라멜 마키아또-Iced Caramel Macchiato","향긋한 바닐라 시럽과 시원한 우유와 얼음을 넣고 점을 찍듯이 에스프레소를 부은 후 벌집 모양으로 카라멜 드리즐을 올린 달콤한 커피 음료",5000);
+insert into menu value(0,"망고 바나나 블렌디드-Mango Banana Blended","달콤상큼한 망고 패션 후르츠 블렌디드에 신선한 바나나 1개를 통째로 넣고 우유, 얼음과 함께 곱게 갈아 제공되는 신개념 블렌디드. 취향에 따라 두유로도 선택이 가능하며 300kcal 이하의 열량으로 맛과 영양소를 동시에 섭취할 수 있는 음료입니다. 평소에 즐겨마시던 망고에 바나나를 더한다는 신선한 아이디어만큼이나 맛도 신선한 새로운 음료입니다. 음료 한잔으로 부드러운 맛 뿐만 아니라 든든함까지 얻을 수 있는 망고 바나나 블렌디드를 적극! 추천합니다.",5000);
+insert into menu value(0,"자바 칩 프라푸치노-Java Chip Frappuccino","우유 선택과 커피 농도 조절이 가능한 블렌디드 음료입니다. 초콜릿 모카 시럽 그리고 진한 초콜릿 칩이 입안에 느껴지는 음료로 시원한 커피와 함께 초콜릿 칩의 씹히는 맛이 이색적입니다.",5000);
+insert into menu value(0,"돌체 콜드 브루-Dolce Cold Brew","무더운 여름철, 동남아 휴가지에서 즐기는 커피를 떠오르게 하는 베스트 x 베스트 조합인 돌체 콜드 브루를 만나보세요!",5000);
+insert into menu value(0,"바닐라 빈 라떼-Vanilla Bean Latte","리저브만을 위한 프리미엄 바닐라 빈 시럽이 부드럽게 어우러진 카페 라떼",5000);
+insert into menu value(0,"바닐라 크림 콜드 브루-Vanilla Cream Cold Brew","콜드 브루에 더해진 바닐라 크림으로 깔끔하면서 달콤한 콜드 브루를 새롭게 즐길 수 있는 음료입니다.",5000);
+insert into menu value(0,"블론드 바닐라 더블 샷 마키아또-Blonde Vanilla Double Shot Macchiato","블론드 에스프레소 2샷에 흑당 시럽과 바닐라 크림이 부드럽고 달콤하게 어우러진 마키아또 타입의 음료를 즐겨 보세요!",5000);
+insert into menu value(0,"슬래머-Slammer","스트로베리와 아사이베리의 상큼, 달콤한 맛이 톡톡! 시원하고 통쾌한 그랜드 슬램을 위한 에너지 부스팅 음료~!",5000);
+insert into menu value(0,"아이스 블론드 바닐라 더블 샷 마키아또-Iced Blonde Vanilla Double Shot Macchiato","블론드 에스프레소 2샷에 흑당 시럽과 바닐라 크림이 부드럽고 달콤하게 어우러진 마키아또 타입의 음료를 즐겨 보세요!",5000);
+insert into menu value(0,"아이스 카푸치노-Iced Cappuccino","풍부하고 진한 에스프레소에 신선한 우유와 우유 거품이 얼음과 함께 들어간 시원하고 부드러운 커피 음료",5000);
+insert into menu value(0,"아이스 푸를 청귤 민트 티-Iced Green Tangerine Mint Tea","상큼한 청귤과 탱글탱글한 한라봉 젤리로 티바나 민트 티를 더욱 청량하게 즐길 수 있는 칵테일 티",5000);
+insert into menu value(0,"에스프레소 마키아또-Espresso Macchiato","신선한 에스프레소 샷에 우유 거품을 살짝 얹은 커피 음료로써, 강렬한 에스프레소의 맛과 우유의 부드러움을 같이 즐길 수 있는 커피 음료",5000);
+insert into menu value(0,"에스프레소 콘 파나-Espresso Con Panna","신선한 에스프레소 샷에 풍부한 휘핑크림을 얹은 커피 음료로서, 뜨거운 커피의 맛과 차갑고 달콤한 생크림의 맛을 같이 즐길 수 있는 커피 음료",5000);
+insert into menu value(0,"카페 모카-Caffe Mocha","진한 초콜릿 모카 시럽과 풍부한 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 진한 에스프레소와 초콜릿 맛이 어우러진 커피",5000);
+insert into menu value(0,"콜드 브루-Cold Brew","콜드 브루 전용 원두를 차가운 물로 14시간 동안 추출하여 한정된 양만 제공됩니다. 깊은 풍미의 새로운 커피 경험을 즐겨보세요.",5000);
+insert into menu value(0,"콜드 브루 오트 라떼-Cold Brew Oat Latte","콜드 브루의 풍미와 깔끔한 오트 밀크가 어우러진 달콤 고소한 라떼. 식물성 밀크를 사용해 모든 고객이 부담없이 즐길 수 있는 콜드 브루 음료.",5000);
+insert into menu value(0,"콜드 브루 플로트-Cold Brew Float","리저브 콜드 브루 위에 녹아 내리는 한 스쿱의 바닐라 아이스크림.",5000);
+insert into menu value(0,"화이트 딸기 크림 프라푸치노-White Strawberry Cream Frappuccino","바닐라 크림 베이스와 새콤 달콤한 딸기 과육이 레이어드된 크림 프라푸치노.",5000);
+insert into menu value(0,"화이트 초콜릿 모카-White Chocolate Mocha","달콤하고 부드러운 화이트 초콜릿 시럽과 에스프레소를 스팀 밀크와 섞어 휘핑크림으로 마무리한 음료로 달콤함과 강렬한 에스프레소가 부드럽게 어우러진 커피.",5000);
